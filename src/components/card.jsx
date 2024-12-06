@@ -43,6 +43,12 @@ export default function Card() {
   const sectionRef = useRef(null);
 
   const addStudent = () => {
+    if [nameRef.current.value == null && courseRef.current.value == && sectionRef.current.value == null] {
+
+    }
+    else
+    
+
     const newStudent = {
       name: nameRef.current.value,
       course: courseRef.current.value,
